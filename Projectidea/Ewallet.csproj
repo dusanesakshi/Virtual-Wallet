@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A5A164DB-1DD4-49A6-A616-B8BAE4CB4A2F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Projectidea</RootNamespace>
+    <AssemblyName>Projectidea</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMoneyPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMoneyPage.Designer.cs">
+      <DependentUpon>AddMoneyPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBalancePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckBalancePage.Designer.cs">
+      <DependentUpon>CheckBalancePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTHRechargePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DTHRechargePage.Designer.cs">
+      <DependentUpon>DTHRechargePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstPage.Designer.cs">
+      <DependentUpon>FirstPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPasswordPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPasswordPage.Designer.cs">
+      <DependentUpon>ForgotPasswordPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUpPage.Designer.cs">
+      <DependentUpon>SignUpPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MobileRechargePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MobileRechargePage.Designer.cs">
+      <DependentUpon>MobileRechargePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoneyTransferPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoneyTransferPage.Designer.cs">
+      <DependentUpon>MoneyTransferPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayElectricityPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayElectricityPage.Designer.cs">
+      <DependentUpon>PayElectricityPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewTransactionPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTransactionPage.Designer.cs">
+      <DependentUpon>ViewTransactionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomePage.Designer.cs">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddMoneyPage.resx">
+      <DependentUpon>AddMoneyPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckBalancePage.resx">
+      <DependentUpon>CheckBalancePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DTHRechargePage.resx">
+      <DependentUpon>DTHRechargePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstPage.resx">
+      <DependentUpon>FirstPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPasswordPage.resx">
+      <DependentUpon>ForgotPasswordPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpPage.resx">
+      <DependentUpon>SignUpPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MobileRechargePage.resx">
+      <DependentUpon>MobileRechargePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyTransferPage.resx">
+      <DependentUpon>MoneyTransferPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayElectricityPage.resx">
+      <DependentUpon>PayElectricityPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ViewTransactionPage.resx">
+      <DependentUpon>ViewTransactionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomePage.resx">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
